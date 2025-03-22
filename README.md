@@ -347,8 +347,9 @@ BFS (Breadth-First Search) ve A* (A Star) algoritmaları, yol bulma ve graf aram
 _Şekil 1. BFS ile en kısa yol bulma örneği_
 
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*PyptNl4xejdP-RWR0XedbQ.gif" width="600" /> <br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Astarpathfinding.gif" width="600" /> <br>
 _Şekil 2. A-star ile en kısa yol bulma örneği_
+
 
 
 ---
@@ -414,8 +415,9 @@ if __name__ == "__main__":
 
 ![resim](test-sonuc.png)
 
+---
 
-## Projeyi Geliştirme Fikirleri 
+### Projeyi Geliştirme Fikirleri 
 
 Projede algoritmaların daha verimli oldukları alanlara bağlı olarak farklı algoritmalar kullanılabilir. Sonuçlar karşılaştırılıp en iyi algoritma seçilebilir. 
 Bu proje özelinde istasyonlardaki aktarmalar ve aktarma süreleri dikkate alınarak en iyi rotalar ve en kısa süre hesaplaması iyileştirilebilir. 
