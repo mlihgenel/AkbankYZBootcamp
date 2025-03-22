@@ -343,16 +343,11 @@ Algoritma yukarıdaki toplama işlemini kullanan oldukça basit bir yapıya sahi
 
 BFS (Breadth-First Search) ve A* (A Star) algoritmaları, yol bulma ve graf arama problemlerinde sıkça kullanılan yöntemlerdir. BFS, en kısa yolu bulmak için düğümleri katman katman tarayan eksiksiz (complete) ve optimal bir algoritmadır, ancak ağırlıklı graf yapılarında verimli değildir. A* algoritması ise, BFS ve Dijkstra’nın birleşimi gibi çalışarak gereksiz düğümleri incelemekten kaçınır ve heuristic (sezgisel fonksiyon) kullanarak en kısa yolu daha hızlı bulur. BFS, ağırlıksız graf yapılarında en kısa yolu garanti ederken, A ise ağırlıklı ve daha büyük ölçekli problemlerde daha verimli çalışır*. Bu nedenle, BFS daha temel ve kesin çözüm sunarken, A daha akıllı ve hızlı bir arama sağlar*.
 
-<div style="display: flex;">
-    <div style="margin-right: 10px;">
-        <img src="https://camo.githubusercontent.com/b55c9605ff90a9027f5f67a40e3839f3178dc0dabfc84cc25405a19a8493ac5d/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f647172326d656a68632f696d6167652f75706c6f61642f76313530313336303734362f6266735f7373776d657a2e676966" width="400"/>
-        <p> Şekil 1: BFS ile en kısa yolu bulma.</p>
-    </div>
-    <div>
-        <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*PyptNl4xejdP-RWR0XedbQ.gif" width="400" height = "333"/>
-        <p>Şekil 2: A-star ile en kısa yolu bulma.</p>
-    </div>
-</div>
+<p align="center">
+  <img src="https://camo.githubusercontent.com/b55c9605ff90a9027f5f67a40e3839f3178dc0dabfc84cc25405a19a8493ac5d/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f647172326d656a68632f696d6167652f75706c6f61642f76313530313336303734362f6266735f7373776d657a2e676966" width="45%" />
+  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*PyptNl4xejdP-RWR0XedbQ.gif" width="45%" height="275" />
+</p>
+
 
 ---
 ## Örnek Kullanım ve Test Sonuçları 
@@ -416,6 +411,7 @@ if __name__ == "__main__":
 Örnek olarak Bursa şehrindeki metro itasyonları seçildi. İstasyonlar arasındaki bağlantılar yapıldı. Test sonuçlarını da görmüş olduk.
 
 ![resim](test-sonuc.png)
+
 
 ### Projeyi Geliştirme Fikirleri 
 
