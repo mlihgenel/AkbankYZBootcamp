@@ -1,6 +1,3 @@
-
-<img src="https://yt3.googleusercontent.com/ytc/AIdro_kT0Fc9-Tr6SOBf__payOLIU0w4YCUDYO67gPW8rPSV-fc=s900-c-k-c0x00ffffff-no-rj" width="100" style="float:left; margin-right:10px;"/>
- 
 # Global AI Hub Akbank Python ile Yapay Zekaya Giriş Bootcamp
 ---
 
@@ -285,8 +282,8 @@ __3. Komşuları Kuyruğa Ekleme:__ Çıkarttığımız düğümün komşuların
 __4. Tekrarlama:__ Bu işlem, kuyruğa eklenen her düğüm için tekrarlanır. Kuyruk boşalana kadar devam ederiz.
    
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif" width="350" style="display:inline-block;"/>
-<img src="https://lh5.googleusercontent.com/JKY4V8OZEs5L68Mh2ZY5ZqiqGkaj8esWnTEUwEdygFQdRFowh7aCWpibaPRqkcR3SHBh2Q4Io856f2fAzM5Ae3nD2uLj7AEU3NnQfZ55E2ni0EzXceoVTJtHzqGlUhQ9-izy5Y0v1DK0xIQ4vUxs9Ds" width="600" height="350" margin= "10px" style="display:inline-block;"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif" width="300" style="display:inline-block;"/>
+<img src="https://lh5.googleusercontent.com/JKY4V8OZEs5L68Mh2ZY5ZqiqGkaj8esWnTEUwEdygFQdRFowh7aCWpibaPRqkcR3SHBh2Q4Io856f2fAzM5Ae3nD2uLj7AEU3NnQfZ55E2ni0EzXceoVTJtHzqGlUhQ9-izy5Y0v1DK0xIQ4vUxs9Ds" width="400" height="300" margin= "10px" style="display:inline-block;"/>
 
 #### BFS'nin Kullanım Alanları:
 
@@ -352,7 +349,7 @@ BFS (Breadth-First Search) ve A* (A Star) algoritmaları, yol bulma ve graf aram
         <p> Şekil 1: BFS ile en kısa yolu bulma.</p>
     </div>
     <div>
-        <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*PyptNl4xejdP-RWR0XedbQ.gif" width="600" height = "333"/>
+        <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*PyptNl4xejdP-RWR0XedbQ.gif" width="400" height = "333"/>
         <p>Şekil 2: A-star ile en kısa yolu bulma.</p>
     </div>
 </div>
