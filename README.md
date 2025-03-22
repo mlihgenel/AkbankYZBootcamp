@@ -281,9 +281,8 @@ __3. Komşuları Kuyruğa Ekleme:__ Çıkarttığımız düğümün komşuların
 
 __4. Tekrarlama:__ Bu işlem, kuyruğa eklenen her düğüm için tekrarlanır. Kuyruk boşalana kadar devam ederiz.
    
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif" width="300" style="display:inline-block;"/>
-<img src="https://lh5.googleusercontent.com/JKY4V8OZEs5L68Mh2ZY5ZqiqGkaj8esWnTEUwEdygFQdRFowh7aCWpibaPRqkcR3SHBh2Q4Io856f2fAzM5Ae3nD2uLj7AEU3NnQfZ55E2ni0EzXceoVTJtHzqGlUhQ9-izy5Y0v1DK0xIQ4vUxs9Ds" width="400" height="300" margin= "10px" style="display:inline-block;"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif" width="350" style="display:inline-block;"/>
+<img src="https://lh5.googleusercontent.com/JKY4V8OZEs5L68Mh2ZY5ZqiqGkaj8esWnTEUwEdygFQdRFowh7aCWpibaPRqkcR3SHBh2Q4Io856f2fAzM5Ae3nD2uLj7AEU3NnQfZ55E2ni0EzXceoVTJtHzqGlUhQ9-izy5Y0v1DK0xIQ4vUxs9Ds" width="600" margin= "10px" style="display:inline-block;"/>
 
 #### BFS'nin Kullanım Alanları:
 
@@ -313,6 +312,7 @@ __Sezgisel Fonksiyon (Heuristic) Seçimi__
 A* algoritmasının başarısı, h(n) fonksiyonuna bağlıdır. Yaygın olarak kullanılan sezgisel fonksiyonlar:
 
 1. Manhattan Mesafesi (Grid için iyi):
+
 $$
 h(n) = |x_1 - x_1| + |y_1 - y_2| + |z_1 - z_2|
 $$
@@ -343,10 +343,12 @@ Algoritma yukarıdaki toplama işlemini kullanan oldukça basit bir yapıya sahi
 
 BFS (Breadth-First Search) ve A* (A Star) algoritmaları, yol bulma ve graf arama problemlerinde sıkça kullanılan yöntemlerdir. BFS, en kısa yolu bulmak için düğümleri katman katman tarayan eksiksiz (complete) ve optimal bir algoritmadır, ancak ağırlıklı graf yapılarında verimli değildir. A* algoritması ise, BFS ve Dijkstra’nın birleşimi gibi çalışarak gereksiz düğümleri incelemekten kaçınır ve heuristic (sezgisel fonksiyon) kullanarak en kısa yolu daha hızlı bulur. BFS, ağırlıksız graf yapılarında en kısa yolu garanti ederken, A ise ağırlıklı ve daha büyük ölçekli problemlerde daha verimli çalışır*. Bu nedenle, BFS daha temel ve kesin çözüm sunarken, A daha akıllı ve hızlı bir arama sağlar*.
 
-<p align="center">
-  <img src="https://camo.githubusercontent.com/b55c9605ff90a9027f5f67a40e3839f3178dc0dabfc84cc25405a19a8493ac5d/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f647172326d656a68632f696d6167652f75706c6f61642f76313530313336303734362f6266735f7373776d657a2e676966" width="45%" />
-  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*PyptNl4xejdP-RWR0XedbQ.gif" width="45%" height="275" />
-</p>
+<img src="https://camo.githubusercontent.com/b55c9605ff90a9027f5f67a40e3839f3178dc0dabfc84cc25405a19a8493ac5d/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f647172326d656a68632f696d6167652f75706c6f61642f76313530313336303734362f6266735f7373776d657a2e676966" width="350"/> <br>
+_Şekil 1. BFS ile en kısa yol bulma örneği_
+
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*PyptNl4xejdP-RWR0XedbQ.gif" width="600" /> <br>
+_Şekil 2. A-star ile en kısa yol bulma örneği_
 
 
 ---
@@ -413,7 +415,7 @@ if __name__ == "__main__":
 ![resim](test-sonuc.png)
 
 
-### Projeyi Geliştirme Fikirleri 
+## Projeyi Geliştirme Fikirleri 
 
 Projede algoritmaların daha verimli oldukları alanlara bağlı olarak farklı algoritmalar kullanılabilir. Sonuçlar karşılaştırılıp en iyi algoritma seçilebilir. 
 Bu proje özelinde istasyonlardaki aktarmalar ve aktarma süreleri dikkate alınarak en iyi rotalar ve en kısa süre hesaplaması iyileştirilebilir. 
