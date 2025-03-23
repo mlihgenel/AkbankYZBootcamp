@@ -417,7 +417,7 @@ if __name__ == "__main__":
 
 ---
 
-## Projeyi Geliştirme Fikirleri
+__Projeyi Geliştirme Fikirleri__
 
 Projede algoritmaların daha verimli oldukları alanlara bağlı olarak farklı algoritmalar kullanılabilir. Sonuçlar karşılaştırılıp en iyi algoritma seçilebilir. 
 Bu proje özelinde istasyonlardaki aktarmalar ve aktarma süreleri dikkate alınarak en iyi rotalar ve en kısa süre hesaplaması iyileştirilebilir. 
